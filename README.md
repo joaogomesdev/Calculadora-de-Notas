@@ -26,21 +26,6 @@ Esta ferramenta permite que estudantes verifiquem rapidamente suas médias escol
 
 ---
 
-## Exemplo de uso
-
-- Seleciona o **1º bimestre**  
-- Digita as notas: 8 e 7  
-- Média do bimestre: 7.5 → Acima de 7 ✅  
-
-- Seleciona o **2º bimestre**  
-- Digita as notas: 6 e 9  
-- Média do bimestre: 7.5 → Acima de 7 ✅  
-
-- Após calcular todos os bimestres:  
-- Média anual: 30 → Acima de 28 ✅
-
----
-
 ## Tecnologias utilizadas
 
 - HTML, CSS e JavaScript.
