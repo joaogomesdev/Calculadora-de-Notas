@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Notas 📚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Partículas de fundo -->
+  <canvas id="particles"></canvas>
+
+  <!-- Container principal -->
+  <div class="container">
+    <h1>Calculadora de Notas 📚</h1>
+
+    <p>Em qual bimestre você está?</p>
+    <select id="bimestre">
+      <option value="1">1º Bimestre</option>
+      <option value="2">2º Bimestre</option>
+      <option value="3">3º Bimestre</option>
+      <option value="4">4º Bimestre</option>
+    </select>
+
+    <div id="camposNotas"></div>
+
+    <button id="btnCalcular">Calcular</button>
+
+    <h2>Resultado:</h2>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

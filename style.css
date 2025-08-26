@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* permite scroll vertical */
+}
+
+/* Canvas das partículas */
+#particles {
+  position: absolute; /* mudou de fixed para absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Container principal */
+.container {
+  background: rgba(255,255,255,0.95);
+  padding: 40px 20px 60px 20px; /* mais padding inferior */
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 40px; /* espaço extra no final */
+  position: relative;
+  z-index: 1;
+}
+
+/* Inputs e selects */
+input, select {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #6a11cb;
+  box-shadow: 0 0 12px rgba(106,17,203,0.5);
+  transform: scale(1.02);
+}
+
+/* Botão com gradiente animado */
+button {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  background-size: 200% 200%;
+  color: #fff;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: gradientBG 3s ease infinite;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.result-box {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.result-box.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.result-box.success { border-left: 6px solid #4CAF50; color: #2e7d32; }
+.result-box.warning { border-left: 6px solid #FFC107; color: #b26a00; }
+.result-box.final { border-left: 6px solid #2196F3; font-weight: bold; font-size: 20px; background: #e3f2fd; }
+
+/* Animação fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Gradiente animado do botão */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
