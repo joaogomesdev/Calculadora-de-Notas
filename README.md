@@ -1,6 +1,8 @@
 # Calculadora de Notas
 
-Bem-vindo(a) à **Calculadora de Notas**! 🎓  
+🎓 **Use a calculadora agora:** [Clique aqui para abrir a calculadora](https://joaogomesdev.github.io/calculadora-de-notas/)  
+
+Bem-vindo(a) à **Calculadora de Notas**!  
 Esta ferramenta permite que estudantes verifiquem rapidamente suas médias escolares por bimestre e também a média final do ano.
 
 ---
@@ -17,7 +19,7 @@ Esta ferramenta permite que estudantes verifiquem rapidamente suas médias escol
 
 ## Como usar
 
-1. Abra o site no navegador.
+1. Abra o site no navegador ou clique no link acima.
 2. Selecione o bimestre que deseja calcular.
 3. Insira as notas 1 e 2 correspondentes ao bimestre.
 4. Veja a média do bimestre e se você está acima de 7.
@@ -37,6 +39,13 @@ Esta ferramenta permite que estudantes verifiquem rapidamente suas médias escol
 ## Contribuição
 
 Contribuições são bem-vindas! Abra uma issue ou pull request para sugerir melhorias ou corrigir bugs.
+
+---
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 
 ---
 
