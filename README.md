@@ -1,6 +1,6 @@
 # Calculadora de Notas
 
-🎓 **Use a calculadora agora:** [Clique aqui para abrir a calculadora](https://joaogomesdev.github.io/calculadora-de-notas/)  
+🎓 **Use a calculadora agora:** [Clique aqui para abrir a calculadora](https://joaogomesdev.github.io/Calculadora-de-Notas/)  
 
 Bem-vindo(a) à **Calculadora de Notas**!  
 Esta ferramenta permite que estudantes verifiquem rapidamente suas médias escolares por bimestre e também a média final do ano.
