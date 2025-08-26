@@ -1,6 +1,6 @@
 # Calculadora de Notas
 
-🎓 **Use a calculadora agora:** [Clique aqui para abrir a calculadora](https://joaogomesdev.github.io/Calculadora-de-Notas/)
+🎓 **Use a calculadora agora:** [Clique aqui para abrir a calculadora](https://joaogomesdev.github.io/Calculadora-de-Notas/
 )  
 
 Bem-vindo(a) à **Calculadora de Notas**!  
